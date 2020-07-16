@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1047009458764",
+    "firebase_url": "https://college-frieng.firebaseio.com",
+    "project_id": "college-frieng",
+    "storage_bucket": "college-frieng.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047009458764:android:4078baa0e1ee2ca727d2e9",
+        "android_client_info": {
+          "package_name": "com.prabhat.collegefriend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047009458764-hmdtt3n41c6oq4jnv78orvkltcv466km.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prabhat.collegefriend",
+            "certificate_hash": "94b72d0b9f392e4c8a83999881dadae3b3d60fd3"
+          }
+        },
+        {
+          "client_id": "1047009458764-imj5kvmk8b69i0d7b5ti2nj2osga8gt4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsRsYMQktJGvSIYV7YoEVJwR3F-HAkbyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047009458764-imj5kvmk8b69i0d7b5ti2nj2osga8gt4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

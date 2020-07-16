@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BCA"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="10dp"
+            android:layout_height="365dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Semester 1"
+                    android:fontFamily="serif-monospace"
+                    android:textColor="#4CAF50"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:textSize="28dp"/>
+                <TextView
+                    android:id="@+id/a"
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:textColor="#555"
+                    android:textSize="19dp"
+                    android:layout_height="match_parent"
+                    android:text="• Introduction to 'C' Programming"/>
+                <TextView
+                    android:id="@+id/b"
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:textAlignment="center"
+                    android:textSize="19dp"
+                    android:textColor="#555"
+                    android:layout_height="match_parent"
+                    android:text="• Computer System and Architecture"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:id="@+id/c"
+                    android:textAlignment="center"
+                    android:layout_height="match_parent"
+                    android:textColor="#555"
+                    android:textSize="19dp"
+                    android:gravity="center"
+                    android:text="• Mathematical Foundation of Computer Science"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:textAlignment="center"
+                    android:textColor="#555"
+                    android:textSize="19dp"
+                    android:id="@+id/d"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="• Communication Skills"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:textAlignment="center"
+                    android:textColor="#555"
+                    android:textSize="19dp"
+                    android:id="@+id/e"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="• Media and Information Literacy Communication"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="10dp"
+            android:layout_height="325dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/cardview1"
+                android:backgroundTint="#fff"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Semester 2"
+                    android:textColor="#4CAF50"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="28dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:id="@+id/f"
+                    android:textColor="#555"
+                    android:textSize="19dp"
+                    android:layout_height="match_parent"
+                    android:text="•Introduction to Data Structure"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:textAlignment="center"
+                    android:textSize="19dp"
+                    android:textColor="#555"
+                    android:id="@+id/g"
+                    android:layout_height="match_parent"
+                    android:text="• Data communication and Computer Networks Basics"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:textAlignment="center"
+                    android:textColor="#555"
+                    android:textSize="19dp"
+                    android:id="@+id/h"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="• Fundamental Concept of Operating Systems"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:textAlignment="center"
+                    android:layout_height="match_parent"
+                    android:textColor="#555"
+                    android:textSize="19dp"
+                    android:id="@+id/i"
+                    android:gravity="center"
+                    android:text="• Elementary Physics"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:textAlignment="center"
+                    android:textColor="#555"
+                    android:textSize="19dp"
+                    android:id="@+id/j"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="• Environment Studies"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="10dp"
+            android:layout_height="290dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/cardview1"
+                android:backgroundTint="#fff"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Semester 3"
+                    android:textColor="#4CAF50"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:fontFamily="serif-monospace"
+                    android:gravity="center"
+                    android:textSize="28dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:textColor="#555"
+                    android:id="@+id/k"
+                    android:textSize="19dp"
+                    android:layout_height="match_parent"
+                    android:text="• Introduction to object Oriented Programming"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:textAlignment="center"
+                    android:textSize="19dp"
+                    android:id="@+id/l"
+                    android:textColor="#555"
+                    android:layout_height="match_parent"
+                    android:text="• Introduction to Database Management System"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:textAlignment="center"
+                    android:textSize="19dp"
+                    android:id="@+id/m"
+                    android:textColor="#555"
+                    android:layout_height="match_parent"
+                    android:text="• Discrete Structure"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="10dp"
+            android:layout_height="200dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/cardview1"
+                android:backgroundTint="#fff"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Semester 4"
+                    android:fontFamily="serif-monospace"
+                    android:textColor="#4CAF50"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:textSize="28dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:textColor="#555"
+                    android:textSize="19dp"
+                    android:id="@+id/n"
+                    android:layout_height="match_parent"
+                    android:text="• Fundamental of Probability and Statistics"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:textAlignment="center"
+                    android:textSize="19dp"
+                    android:id="@+id/o"
+                    android:textColor="#555"
+                    android:layout_height="match_parent"
+                    android:text="• Introduction to Artificial Intelligence"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="10dp"
+            android:layout_height="120dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#fff"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Semester 5"
+                    android:fontFamily="serif-monospace"
+                    android:textColor="#4CAF50"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:textSize="28dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:id="@+id/p"
+                    android:textColor="#555"
+                    android:textSize="19dp"
+                    android:layout_height="match_parent"
+                    android:text="• Fundamental of Software Engineering"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="10dp"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/cardview1"
+                android:backgroundTint="#fff"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Semester 6"
+                    android:fontFamily="serif-monospace"
+                    android:textColor="#4CAF50"
+                    android:textStyle="bold"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:textSize="28dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:textColor="#F44336"
+                    android:textSize="35dp"
+                    android:layout_height="match_parent"
+                    android:text="Coming Soon"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>
